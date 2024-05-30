@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Chatbot Website</title>
+    <style>
+        /* CSS reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Set background image */
+        body {
+            background-image: url('https://us.v-cdn.net/6036147/uploads/4L3AN7X0PAS7/l-40-1-1-1200x675.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        /* Style for the chatbot iframe */
+        iframe {
+            width: 350px; /* Adjust width as needed */
+            height: 430px; /* Adjust height as needed */
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Our Chatbot</h1>
+    <!-- Embed the Dialogflow chatbot here -->
+    <iframe allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/ca17d820-1a1b-4a94-91d9-941d76e12511"></iframe>
+</body>
+</html>
